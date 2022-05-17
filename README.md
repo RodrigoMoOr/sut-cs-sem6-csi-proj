@@ -56,3 +56,5 @@ Functions of the program:
 2.  Application layer
     You only need to implement two custom orders: - command code = 1 - sending the text from the Master station to the Slave station. The text entered into the edit window at the Master is transferred (write operation) to the slave and displayed in the "Text received" window at the slave station. This command can be used in addressed transaction or broadcast transaction. - command code = 2 - reading the text from the Slave station and displaying the text in the "Text received ” window at the Master. This command can only be used in addressed transaction.
     **_Remark: In the MASTER station and in the SLAVE station, it should be possible to preview frames sent and received in hexadecimal code._**
+
+![ModBus Application Architecture](./blob/modbus-arch.png)
